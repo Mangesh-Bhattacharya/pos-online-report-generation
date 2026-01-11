@@ -43,18 +43,18 @@ Advanced Point of Sale (POS) reporting system with **real-time updates**, depart
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        Frontend Layer                        │
+│                        Frontend Layer                       │
 │  ASP.NET Web Forms │ Bootstrap │ Chart.js │ SignalR Client  │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                      Business Logic Layer                    │
+│                      Business Logic Layer                   │
 │    ReportService │ ExportManager │ SignalR Hub │ Helpers    │
 └─────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                        Data Access Layer                     │
-│         SQL Server │ Stored Procedures │ Entity Models       │
+│                        Data Access Layer                    │
+│         SQL Server │ Stored Procedures │ Entity Models      │
 └─────────────────────────────────────────────────────────────┘
 ```
 
